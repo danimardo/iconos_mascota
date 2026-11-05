@@ -4,3 +4,16 @@ __pycache__/
 node_modules/
 **/build/
 .DS_Store
+
+# Vídeos (excluidos por petición explícita)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Directorio local / backups
+.local/
