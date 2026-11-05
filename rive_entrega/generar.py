@@ -7,6 +7,7 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -29,7 +30,7 @@ def registry():
         match = re.match(r'\s*"[^"]+":\s*(\{.*\}),?$', line)
         if match:
             entries.append(json.loads(match[1]))
-    assert len(entries) == 47, len(entries)
+    assert len(entries) == 51, len(entries)
     return entries
 
 
@@ -172,6 +173,12 @@ def icon_project(entry):
 
 def main():
     entries = registry()
+    if len(sys.argv) > 1:
+        requested = set(sys.argv[1:])
+        entries = [entry for entry in entries if entry["id"] in requested]
+        missing = requested - {entry["id"] for entry in entries}
+        if missing:
+            raise ValueError(f"Iconos desconocidos: {', '.join(sorted(missing))}")
     projects = [icon_project(entry) for entry in entries]
     riv_dir = OUT / "riv/iconos"
     riv_dir.mkdir(parents=True, exist_ok=True)

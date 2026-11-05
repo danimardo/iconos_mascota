@@ -211,6 +211,28 @@
       "sha256": "6685a5e2716b036a8309767db21e49d962f6d188107fa1cb758021c8050cfac5"
     },
     {
+      "id": "check",
+      "label": "Marcar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/check.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/check.riv",
+      "bytes": 12557,
+      "sha256": "b547df0914e8bc037ee20b30fa67f7a961d403cd28ff4ca16b887543f8ad0d97"
+    },
+    {
       "id": "chevron-down",
       "label": "Desplegar",
       "category": "interfaz",
@@ -322,6 +344,28 @@
       "riv": "riv/iconos/connection.riv",
       "bytes": 27215,
       "sha256": "bcf4d94dba7396a955e4275aca6ca2f7389822fac43dbdb4313257c5d5b18a96"
+    },
+    {
+      "id": "copy",
+      "label": "Copiar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/copy.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/copy.riv",
+      "bytes": 15073,
+      "sha256": "c047f69b1705d671db59a39cd9855eb878f395d64a1349e4a545c7a904e089c4"
     },
     {
       "id": "crosshair",
@@ -809,6 +853,28 @@
       "sha256": "daa0d850ea6ed312da42bdbe8d7235a6c072cc62c78a31bbd196749fd5e027b6"
     },
     {
+      "id": "rotate-ccw",
+      "label": "Deshacer",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/rotate-ccw.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/rotate-ccw.riv",
+      "bytes": 19857,
+      "sha256": "50a03abe90c033395c3bc4e5151ee6014737fd8d613eaf9145eae20ef113416d"
+    },
+    {
       "id": "scale",
       "label": "Comparar",
       "category": "design-system",
@@ -829,6 +895,28 @@
       "riv": "riv/iconos/scale.riv",
       "bytes": 22777,
       "sha256": "b2553b6b65dcef108b879638a1eb2031a6a8ee7edd216a15de3ee13d8b0bbf8d"
+    },
+    {
+      "id": "search",
+      "label": "Buscar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/search.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/search.riv",
+      "bytes": 20881,
+      "sha256": "8808fa4930aea379d222abcac07a16ce6251a1c04a8660f147caa772cd414820"
     },
     {
       "id": "settings",

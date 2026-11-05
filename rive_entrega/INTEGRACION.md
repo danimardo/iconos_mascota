@@ -8,7 +8,7 @@ El clon revisado de `/Apps/RealTime-Translate` (commit `545aa30`, rama `main`) a
 
 ## Inventario y semántica
 
-`manifest.json` contiene las 47 familias y sus nombres públicos. Cada `.riv` tiene los artboards `compact`, `standard`, `large`, correspondientes a las tres variantes ópticas de los SVG. Los nombres de animación comunes son `idle`, `hover`, `pressed`, `selected`, `focus`, `disabled`. Las animaciones funcionales solo aparecen donde `functionalStates` las permite en el catálogo original: `listening`, `processing`, `speaking`, `success`, `error`, `warning`, `muted`, `connecting`, `disconnected`, `paused`, `completed`.
+`manifest.json` contiene las 51 familias y sus nombres públicos. Cada `.riv` tiene los artboards `compact`, `standard`, `large`, correspondientes a las tres variantes ópticas de los SVG. Los nombres de animación comunes son `idle`, `hover`, `pressed`, `selected`, `focus`, `disabled`. Las animaciones funcionales solo aparecen donde `functionalStates` las permite en el catálogo original: `listening`, `processing`, `speaking`, `success`, `error`, `warning`, `muted`, `connecting`, `disconnected`, `paused`, `completed`.
 
 El estado `idle` de los iconos es estático. `hover`, `pressed`, `selected` y `focus` son movimientos breves. `processing`, `connecting`, `listening` y `speaking` son bucles cuando el estado real persiste. Los demás estados son cambios breves o poses. **No inferir actividad de `animated=true`**: un icono de micrófono solo debe escuchar cuando el núcleo indica escucha real. Al salir de un estado funcional, reproducir `idle` o mostrar la pose estática correspondiente.
 
@@ -30,7 +30,7 @@ El icono de bandeja de Windows, el icono de ejecutable y el instalador **siguen 
 3. Elegir `compact`, `standard` o `large` según la regla óptica del catálogo: hasta 20 px compacto; de 24 a 32 estándar; desde 48 grande; de 33 a 47 estándar. El artboard se escala al tamaño solicitado. Al cambiar `name` o artboard, desmontar el anterior y liberar runtime, canvas y listeners.
 4. Traducir el estado funcional del núcleo a una animación nombrada del `manifest.json`. Si falta el nombre o el `.riv` falla, mostrar el SVG equivalente. No iniciar bucles cuando la sesión no esté activa. No reproducir animación alguna cuando Windows active «reducir movimiento»; mostrar una imagen estática significativa.
 5. El componente que contiene el icono conserva `button`, foco, teclado, tooltip, etiqueta y anuncio de estado. El canvas Rive es decorativo si el control padre ya tiene nombre accesible. Nunca anunciar el nombre técnico del archivo como descripción de la acción.
-6. Montar solo los Rive visibles. En listas largas y superficies de alto uso, medir CPU, memoria, tiempo de arranque y frecuencia de repintado en Windows 11. Comparar con los SVG actuales. El integrador decide qué animaciones activar por contexto, pero mantiene disponibles los 47 archivos.
+6. Montar solo los Rive visibles. En listas largas y superficies de alto uso, medir CPU, memoria, tiempo de arranque y frecuencia de repintado en Windows 11. Comparar con los SVG actuales. El integrador decide qué animaciones activar por contexto, pero mantiene disponibles los 51 archivos.
 7. Probar en Tauri 2 / WebView2 con ambas apariencias, escalado 100–200 %, cambio de tema, ventanas ocultas, dispositivos que cambian de estado y la preferencia «reducir movimiento». Verificar también CSP, empaquetado de `.riv` y limpieza al desmontar.
 
 La app usa Svelte 5, Tauri 2 y Windows 11; el laboratorio de iconos es SvelteKit y sus componentes actuales usan Svelte 4. La integración debe respetar los límites de `AGENTS.md`: IPC en `src/shared/ipc`, textos en `src/shared/i18n/es.json` y `en.json`, y estados de negocio procedentes de Rust.
@@ -46,6 +46,6 @@ La opción de Beca como asistente contextual debe pertenecer a la configuración
 ## Comprobaciones realizadas en este paquete
 
 - `rive --once` construyó los 48 proyectos con cero errores de compilación.
-- `validar.py` inspeccionó 47 archivos de icono, 141 artboards y el de Beca, sin problemas de `rive inspect`.
+- `validar.py` inspeccionó 51 archivos de icono, 153 artboards y el de Beca, sin problemas de `rive inspect`.
 - `capturar.py` obtuvo seis fotogramas de animaciones reales desde el renderizador Rive y dos capturas de `audioLevel`; `preview/beca-audio-0.png` y `preview/beca-audio-1.png` muestran que el valor del View Model modifica la boca.
 - No se probó el runtime dentro de la app, porque el clon contiene documentación y experimentos, aún sin código de producto.

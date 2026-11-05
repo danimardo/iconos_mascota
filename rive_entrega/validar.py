@@ -42,7 +42,7 @@ def sheet(entries):
     rows = (len(entries) + 4) // 5
     canvas = Image.new("RGB", (width, rows * cell_h + 45), "#f1f4f6")
     draw = ImageDraw.Draw(canvas)
-    draw.text((20, 13), "BeCall · 47 iconos Rive · variante standard", fill="#243B4C")
+    draw.text((20, 13), f"BeCall · {len(entries)} iconos Rive · variante standard", fill="#243B4C")
     for index, entry in enumerate(entries):
         x, y = (index % 5) * cell_w, 45 + (index // 5) * cell_h
         project = OUT / "proyectos/iconos" / entry["id"]

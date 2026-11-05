@@ -18,7 +18,7 @@ with ZipFile(archive, "w", compression=ZIP_DEFLATED, compresslevel=9) as zip_fil
         "BeCall · Iconos y Beca animados con Rive\n\n"
         "Para verlos, abra rive_entrega/visor/index.html en Chrome, Edge o Firefox.\n"
         "El visor incluye sus recursos y funciona sin conexión ni servidor.\n\n"
-        "El catálogo de los 48 archivos .riv y las instrucciones para integrarlos "
+        "El catálogo de los 52 archivos .riv y las instrucciones para integrarlos "
         "están en rive_entrega/README.md e INTEGRACION.md.\n"
         "Beca_SVG y BeCall_Icons_Fase3_SvelteKit contienen los SVG originales.\n",
     )
@@ -35,5 +35,5 @@ with ZipFile(archive) as zip_file:
     assert str(prefix / "rive_entrega/visor/index.html") in names
     assert str(prefix / "rive_entrega/visor/data.js") in names
     assert str(prefix / "rive_entrega/manifest.json") in names
-    assert sum(n.startswith(str(prefix / "rive_entrega/riv/")) and n.endswith(".riv") for n in names) == 48
+    assert sum(n.startswith(str(prefix / "rive_entrega/riv/")) and n.endswith(".riv") for n in names) == 52
     print(f"ZIP verificado: {archive} · {len(names)} archivos · {archive.stat().st_size:,} bytes")

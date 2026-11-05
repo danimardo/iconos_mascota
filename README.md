@@ -1,6 +1,8 @@
 # BeCall · Iconos y mascota animados con Rive
 
-Entrega de 47 familias de iconos (tres variantes ópticas), Beca animada, fuentes RML/SVG, visor HTML y guía de integración.
+Entrega de 51 familias de iconos (tres variantes ópticas), Beca animada, fuentes RML/SVG, visor HTML y guía de integración.
+
+Las familias `check`, `copy`, `rotate-ccw` y `search` se añadieron para la aplicación y están disponibles como SVG y Rive.
 
 **Vista previa:** abre [`rive_entrega/visor/index.html`](rive_entrega/visor/index.html) directamente en el navegador. El visor funciona sin servidor ni conexión.
 

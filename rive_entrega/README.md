@@ -2,7 +2,7 @@
 
 ## Contenido
 
-- [`riv/iconos/`](riv/iconos/): **47 archivos `.riv`**, uno por familia del catálogo aprobado. Cada archivo tiene artboards `compact`, `standard` y `large` y animaciones nombradas.
+- [`riv/iconos/`](riv/iconos/): **51 archivos `.riv`**, uno por familia del catálogo. Cada archivo tiene artboards `compact`, `standard` y `large` y animaciones nombradas.
 - [`riv/mascota/beca.riv`](riv/mascota/beca.riv): Beca con 14 animaciones y un View Model `BecaControls` (`motion` y `audioLevel`).
 - [`manifest.json`](manifest.json): nombres, estados, variantes, tamaños y SHA-256 de cada binario.
 - [`preview/`](preview/): catálogo de iconos y fotogramas capturados por el renderizador de Rive.
@@ -24,7 +24,7 @@ Esta entrega se generó con Rive CLI **1.7.0**, disponible aquí en `/home/danim
 /home/danimardo/miniforge3/bin/python rive_entrega/preparar_visor.py
 ```
 
-`validar.py` exige 47 `.riv`, 141 artboards, las animaciones esperadas y cero problemas de `rive inspect`. `--once` crea archivos sin firma; estos proyectos no contienen scripts, por lo que la firma de scripts no se necesita para reproducirlos. Las capturas son fotogramas, no pruebas en la aplicación Tauri ni en Windows 11.
+`validar.py` exige 51 `.riv`, 153 artboards, las animaciones esperadas y cero problemas de `rive inspect`. `--once` crea archivos sin firma; estos proyectos no contienen scripts, por lo que la firma de scripts no se necesita para reproducirlos. Las capturas son fotogramas, no pruebas en la aplicación Tauri ni en Windows 11.
 
 Los generadores llevan la ruta de esta instalación en la constante `CLI`; si se ejecutan en otra máquina, hay que apuntarla a su Rive CLI. Los `.riv` entregados no dependen de esa ruta.
 
