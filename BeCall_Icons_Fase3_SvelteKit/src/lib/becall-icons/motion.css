@@ -1,0 +1,45 @@
+/* BeCall Icons Fase 3 — accessible, state-driven animations. */
+.bc-icon-host {
+  display:inline-flex;align-items:center;justify-content:center;
+  vertical-align:middle;flex:none;line-height:0;position:relative;
+}
+.bc-icon-host > svg {width:100%;height:100%;display:block;overflow:visible;
+  transition:transform 220ms cubic-bezier(.2,.8,.2,1),opacity 180ms ease;
+  transform-origin:50% 50%;}
+.bc-icon-host.bc-interactive:hover > svg, .bc-icon-host.bc-state-hover > svg {transform:translateY(-1px)}
+.bc-icon-host.bc-interactive:active > svg, .bc-icon-host.bc-state-pressed > svg {transform:scale(.94)}
+.bc-icon-host.bc-state-selected > svg {filter:drop-shadow(0 0 2px var(--bc-accent,#e87928));}
+.bc-icon-host.bc-state-disabled {opacity:.38;pointer-events:none}
+.bc-icon-host.bc-state-focus {outline:2px solid var(--bc-accent,#e87928);outline-offset:3px;border-radius:5px}
+.bc-icon-host.bc-state-error {--bc-primary:var(--bc-danger,#bb5664)}
+.bc-icon-host.bc-state-warning {--bc-primary:var(--bc-warning,#bd8229)}
+.bc-icon-host.bc-state-success, .bc-icon-host.bc-state-completed {--bc-primary:var(--bc-success,#298877)}
+.bc-icon-host.bc-state-disconnected {opacity:.6}
+.bc-icon-host.bc-state-muted [data-part="mute-slash"] {opacity:1}
+.bc-icon-host:not(.bc-state-muted) [data-part="mute-slash"] {opacity:0}
+.bc-icon-host:is(.bc-state-success,.bc-state-completed) [data-part="translation-check"] {opacity:1}
+.bc-icon-host:not(:is(.bc-state-success,.bc-state-completed)) [data-part="translation-check"] {opacity:0}
+/* Continuous loops are limited to meaningful states and never start on idle. */
+.bc-icon-host.bc-motion-on:is(.bc-state-processing,.bc-state-connecting) [data-name="loader"],
+.bc-icon-host.bc-motion-on:is(.bc-state-processing,.bc-state-connecting) [data-name="loader-circle"] {animation:bc-spin 1100ms linear infinite}
+.bc-icon-host.bc-motion-on.bc-state-processing [data-name="settings"] [data-part="gear"] {transform-origin:12px 12px;animation:bc-spin 8s linear infinite}
+.bc-icon-host.bc-motion-on:is(.bc-state-listening,.bc-state-speaking) [data-part="mic-wave"],
+.bc-icon-host.bc-motion-on:is(.bc-state-listening,.bc-state-speaking) [data-part="wave"],
+.bc-icon-host.bc-motion-on:is(.bc-state-listening,.bc-state-speaking) [data-part="radio-wave"] {animation:bc-wave 1050ms ease-in-out infinite}
+.bc-icon-host.bc-motion-on:is(.bc-state-listening,.bc-state-speaking) > svg {animation:bc-breathe 1500ms ease-in-out infinite}
+.bc-icon-host.bc-motion-on.bc-state-processing [data-name="translation"] > g {animation:bc-breathe 1200ms ease-in-out infinite;transform-origin:12px 12px}
+.bc-icon-host.bc-motion-on:is(.bc-state-success,.bc-state-completed,.bc-state-error) > svg {animation:bc-confirm 300ms ease-out 1}
+.bc-icon-host.bc-motion-on.bc-state-connecting > svg {animation:bc-breathe 1400ms ease-in-out infinite}
+.bc-icon-host.bc-motion-on.bc-state-warning > svg {animation:bc-confirm 350ms ease-out 1}
+.bc-icon-host.bc-static-asset > svg {max-width:100%;max-height:100%}
+.bc-unknown-icon {display:inline-flex;align-items:center;justify-content:center;color:var(--bc-danger);border:1px dashed currentColor;width:24px;height:24px;border-radius:4px}
+.bc-rive-slot {display:inline-flex;flex:none;line-height:0}
+@keyframes bc-spin {to {transform:rotate(360deg)}}
+@keyframes bc-breathe {50% {transform:scale(1.065)}}
+@keyframes bc-wave {50% {opacity:.45;transform:scale(1.08)}}
+@keyframes bc-confirm {50% {transform:scale(1.14)}}
+@media (prefers-reduced-motion:reduce) {
+  .bc-icon-host, .bc-icon-host *, .bc-rive-slot {animation:none!important;transition:none!important;transform:none!important}
+}
+.bc-reduced-motion .bc-icon-host, .bc-reduced-motion .bc-icon-host *,
+.bc-reduced-motion .bc-rive-slot {animation:none!important;transition:none!important;transform:none!important}

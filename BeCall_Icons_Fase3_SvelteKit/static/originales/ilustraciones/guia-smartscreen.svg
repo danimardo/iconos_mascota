@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 300 130" font-family="Segoe UI, sans-serif"><title>Guía: aviso de SmartScreen al ejecutar el instalador</title>
+<rect width="300" height="130" rx="6" fill="#0F5E9C"/>
+<text x="16" y="38" data-key="ss.illus.title" font-size="18" font-weight="600" fill="#FFFFFF">Windows protegió su PC</text>
+<text x="16" y="60" font-size="12" fill="#FFFFFF" fill-opacity=".85">…</text>
+<text x="16" y="84" data-key="ss.illus.more" font-size="12" fill="#FFFFFF" text-decoration="underline">Más información</text>
+<circle cx="130" cy="80" r="9" fill="#E99B35"/><text x="130" y="84" font-size="11" font-weight="700" text-anchor="middle" fill="#2B1A06">1</text>
+<rect x="160" y="96" width="124" height="22" rx="3" fill="none" stroke="#FFFFFF"/><text x="222" y="110.5" data-key="ss.illus.run" font-size="9.5" fill="#FFFFFF" text-anchor="middle">Ejecutar de todas formas</text>
+<circle cx="144" cy="107" r="9" fill="#E99B35"/><text x="144" y="111" font-size="11" font-weight="700" text-anchor="middle" fill="#2B1A06">2</text></svg>

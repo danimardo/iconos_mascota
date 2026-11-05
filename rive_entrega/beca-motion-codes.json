@@ -1,0 +1,16 @@
+{
+  "idle": 0,
+  "wait": 1,
+  "listen": 2,
+  "receive": 3,
+  "translate": 4,
+  "speak": 5,
+  "conversation": 6,
+  "explain": 7,
+  "wave": 8,
+  "walk": 9,
+  "turn": 10,
+  "celebrate": 11,
+  "error": 12,
+  "blink": 13
+}

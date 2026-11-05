@@ -1,0 +1,1131 @@
+{
+  "schema": 1,
+  "generator": "Rive CLI 1.7.0",
+  "icons": [
+    {
+      "id": "activity",
+      "label": "Sesión",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/activity.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "listening",
+        "pressed",
+        "processing",
+        "selected",
+        "speaking"
+      ],
+      "riv": "riv/iconos/activity.riv",
+      "bytes": 23975,
+      "sha256": "7f9ae3ea568237fd87fdfa39ba1a349baddf0319a0a881de75430c118d370768"
+    },
+    {
+      "id": "app-window",
+      "label": "Ventana principal",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/app-window.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/app-window.riv",
+      "bytes": 20390,
+      "sha256": "a32ee1625f8195404744cb66dc5c2b44cfb2ffc3f04ceec6ece73b99403e137b"
+    },
+    {
+      "id": "arrow-down",
+      "label": "Abajo",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/arrow-down.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/arrow-down.riv",
+      "bytes": 25028,
+      "sha256": "17b07eeb3282fd657ee22a4ec435f93af60aa6234264bf05eb823dabbb02e82a"
+    },
+    {
+      "id": "arrow-left",
+      "label": "Anterior",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/arrow-left.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/arrow-left.riv",
+      "bytes": 24034,
+      "sha256": "97a4acdbc2170d73be3c100e56283c20289a08abe6a5c5326c841d33f88e90dc"
+    },
+    {
+      "id": "arrow-right",
+      "label": "Siguiente",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/arrow-right.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/arrow-right.riv",
+      "bytes": 24102,
+      "sha256": "7403b37868a29ff7b35f5f56210033af62b5b29821ba143e544e2802ce420a53"
+    },
+    {
+      "id": "arrow-up",
+      "label": "Arriba",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/arrow-up.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/arrow-up.riv",
+      "bytes": 24884,
+      "sha256": "ce96f456a206e5cac2681fe9815d795cccbe4b03d55ef4bbe832f83ec189df6a"
+    },
+    {
+      "id": "audio-lines",
+      "label": "Audio directo",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/audio-lines.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "muted",
+        "pressed",
+        "selected",
+        "speaking"
+      ],
+      "riv": "riv/iconos/audio-lines.riv",
+      "bytes": 14547,
+      "sha256": "7df0e393b7692265e0ae378398039701fa078f764ae53b665c757e355233fd20"
+    },
+    {
+      "id": "cable",
+      "label": "Cable virtual",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/cable.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "connecting",
+        "disabled",
+        "disconnected",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/cable.riv",
+      "bytes": 26140,
+      "sha256": "d709ef67180aa8fb3170b3b21e22563fe3c3411e176a4af8aa378bc927b01c49"
+    },
+    {
+      "id": "captions",
+      "label": "Subtítulos",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/captions.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/captions.riv",
+      "bytes": 21294,
+      "sha256": "6685a5e2716b036a8309767db21e49d962f6d188107fa1cb758021c8050cfac5"
+    },
+    {
+      "id": "chevron-down",
+      "label": "Desplegar",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/chevron-down.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/chevron-down.riv",
+      "bytes": 18637,
+      "sha256": "a950b93f3fe2fd6f103ca21ce1fbbd662b0dfeb742b380a07f450fea064c28b5"
+    },
+    {
+      "id": "chevron-up",
+      "label": "Contraer",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/chevron-up.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/chevron-up.riv",
+      "bytes": 18487,
+      "sha256": "27cbced4346e7dd90858d2d77d00445de4da514ee1fe88b1264954644b516a05"
+    },
+    {
+      "id": "circle-x",
+      "label": "Descartar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/circle-x.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/circle-x.riv",
+      "bytes": 27766,
+      "sha256": "3a4ab1167c7e81f6a5a8b5c2523edbdb712a47832a299dba42d4ca488436fb90"
+    },
+    {
+      "id": "coins",
+      "label": "Consumo",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/coins.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/coins.riv",
+      "bytes": 30261,
+      "sha256": "911f1d55a25f590b7f43639b65e1f09fa99be5952beeb66497592a3c9bcdcd71"
+    },
+    {
+      "id": "connection",
+      "label": "Sin conexión",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/wifi-off.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "disconnected",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/connection.riv",
+      "bytes": 27215,
+      "sha256": "bcf4d94dba7396a955e4275aca6ca2f7389822fac43dbdb4313257c5d5b18a96"
+    },
+    {
+      "id": "crosshair",
+      "label": "Posicionar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/crosshair.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/crosshair.riv",
+      "bytes": 34140,
+      "sha256": "e038152ce9a81c777dadeabc80be07a459809b83c8c5d57d6a8fe4f261e649d5"
+    },
+    {
+      "id": "download",
+      "label": "Actualizar",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/download.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/download.riv",
+      "bytes": 12984,
+      "sha256": "9c9445a34672801a94fce93764597b6eca6baf8c5a6d2c04396acbf9ca7c344d"
+    },
+    {
+      "id": "ellipsis",
+      "label": "Más acciones",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/ellipsis.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/ellipsis.riv",
+      "bytes": 20453,
+      "sha256": "710aed90835e4ea8655831f4ee8234502d091a12019d7e189dc67681adc616da"
+    },
+    {
+      "id": "error",
+      "label": "Error",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/circle-alert.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/error.riv",
+      "bytes": 12514,
+      "sha256": "4ff9f9f392afaca754d4bdb61334910399346e0ddf763488c6c940c406e59bba"
+    },
+    {
+      "id": "file-text",
+      "label": "Plantillas",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/file-text.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/file-text.riv",
+      "bytes": 15011,
+      "sha256": "3157945c1667761469069e18d6795bc09a86267caee1ad941d0d8d081bc01185"
+    },
+    {
+      "id": "gauge",
+      "label": "Diagnóstico",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/gauge.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/gauge.riv",
+      "bytes": 32032,
+      "sha256": "6f699fceab134df65f5a56c2078ac3e6a0ff35adc96179d70012139fd82dd44b"
+    },
+    {
+      "id": "headphones",
+      "label": "Auriculares",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/headphones.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "listening",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/headphones.riv",
+      "bytes": 31489,
+      "sha256": "26287f7c40bee2436d65bfd814cbc239d01e6130da4a26944e4812a46e9e275b"
+    },
+    {
+      "id": "history",
+      "label": "Histórico",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/history.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/history.riv",
+      "bytes": 27275,
+      "sha256": "76b8f614d50a1cf387e34dbd893bdfc9dec079c1c51c50e76a183000d4ad25e3"
+    },
+    {
+      "id": "info",
+      "label": "Información",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/info.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/info.riv",
+      "bytes": 26647,
+      "sha256": "a5d41e48cefc299f10f9d063fd1efc825c86f04b30b0cd6f9ae52cee3715ce6c"
+    },
+    {
+      "id": "key-round",
+      "label": "Clave de API",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/key-round.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/key-round.riv",
+      "bytes": 19211,
+      "sha256": "8fe7b1b81e52a78f0577c3765117455a6c9a0cdd5663188dce61afbff7c7c364"
+    },
+    {
+      "id": "keyboard",
+      "label": "Teclado",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/keyboard.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/keyboard.riv",
+      "bytes": 24389,
+      "sha256": "3c64127508f95e44ab4c2e67cf03536d1ba5d3f101716ab80493274029d2817e"
+    },
+    {
+      "id": "language",
+      "label": "Idioma entendido",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/ear.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "listening",
+        "pressed",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/language.riv",
+      "bytes": 32594,
+      "sha256": "e207dd0e7692ba06e02d02c6fa312a827e89c94f883658e30ca23615a143c06e"
+    },
+    {
+      "id": "loader",
+      "label": "Conectando",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/loader.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "connecting",
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected"
+      ],
+      "riv": "riv/iconos/loader.riv",
+      "bytes": 21149,
+      "sha256": "2be6d9fa0e063dd71cc297614965f817e88276eb5e3995a988ee4bbac49db2b6"
+    },
+    {
+      "id": "loader-circle",
+      "label": "Cargando",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/loader-circle.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "connecting",
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected"
+      ],
+      "riv": "riv/iconos/loader-circle.riv",
+      "bytes": 25361,
+      "sha256": "dc6dece9d89bd1631af0f6501185d9fcae9b0cc0b37905e3f32920b93cd406fa"
+    },
+    {
+      "id": "mic-off",
+      "label": "Micrófono silenciado",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/mic-off.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "muted",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/mic-off.riv",
+      "bytes": 31215,
+      "sha256": "c43f2b53e10f556ac8d449dfa6235a2d0a4351ebe9e29af3bb021841578b58ab"
+    },
+    {
+      "id": "microphone",
+      "label": "Micrófono",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/mic.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "listening",
+        "muted",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/microphone.riv",
+      "bytes": 25500,
+      "sha256": "d159b6546d43a7817443f482a0bc2d46db070112ce0bae2ba7a6cb6ab260bcf9"
+    },
+    {
+      "id": "pause",
+      "label": "Pausa",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/pause.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "paused",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/pause.riv",
+      "bytes": 16331,
+      "sha256": "122f2fb535455a5a7322060154b28b85d61038b5d00f7a2ebc7f98c2f8af51b4"
+    },
+    {
+      "id": "pin",
+      "label": "Fijar",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/pin.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/pin.riv",
+      "bytes": 15154,
+      "sha256": "5bc96f437675deff010e3f10466d92e8c9cec61085567a21765385a0f19092b2"
+    },
+    {
+      "id": "play",
+      "label": "Reproducir",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/play.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "paused",
+        "pressed",
+        "selected",
+        "speaking"
+      ],
+      "riv": "riv/iconos/play.riv",
+      "bytes": 29351,
+      "sha256": "8b9cb3e7dee958f84b176c353b98f1625b90361cc6fcf30676f3630edbc0334c"
+    },
+    {
+      "id": "plus",
+      "label": "Añadir",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/plus.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/plus.riv",
+      "bytes": 19959,
+      "sha256": "70601539f138819b577632e54715e2d180b1db5fca27dca903997a3a88b63264"
+    },
+    {
+      "id": "radio",
+      "label": "Transmitiendo",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/radio.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "muted",
+        "pressed",
+        "selected",
+        "speaking"
+      ],
+      "riv": "riv/iconos/radio.riv",
+      "bytes": 32947,
+      "sha256": "daa0d850ea6ed312da42bdbe8d7235a6c072cc62c78a31bbd196749fd5e027b6"
+    },
+    {
+      "id": "scale",
+      "label": "Comparar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/scale.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/scale.riv",
+      "bytes": 22777,
+      "sha256": "b2553b6b65dcef108b879638a1eb2031a6a8ee7edd216a15de3ee13d8b0bbf8d"
+    },
+    {
+      "id": "settings",
+      "label": "Ajustes",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/settings.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected"
+      ],
+      "riv": "riv/iconos/settings.riv",
+      "bytes": 31096,
+      "sha256": "ce7f2a1b000dc44618214fda77275349a0a6b8604361bc49d365cb1743ad5af5"
+    },
+    {
+      "id": "sliders-horizontal",
+      "label": "Ajustar",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/sliders-horizontal.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/sliders-horizontal.riv",
+      "bytes": 21132,
+      "sha256": "a999880fdacaada11fa28f28cf35014630f699c9f1b79637a25cebac897676f3"
+    },
+    {
+      "id": "square",
+      "label": "Detener",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/square.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/square.riv",
+      "bytes": 15927,
+      "sha256": "21708e7ff5c202b0251c8764cd23b4051a3bdc23093bc29e9f6d70022b3c8023"
+    },
+    {
+      "id": "success",
+      "label": "Correcto",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/circle-check.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/success.riv",
+      "bytes": 31206,
+      "sha256": "9d8e2483fc15c8b760977ea36af3a9b75ec28bdc349472b21f4d7253bb9329b8"
+    },
+    {
+      "id": "translation",
+      "label": "Traducción",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/languages.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "processing",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/translation.riv",
+      "bytes": 31878,
+      "sha256": "23089dcd3d13d8b2f42b1ccf271ad79023c8fae1bc98864eadba7dbaadb8781b"
+    },
+    {
+      "id": "triangle-alert",
+      "label": "Advertencia",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/triangle-alert.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected",
+        "warning"
+      ],
+      "riv": "riv/iconos/triangle-alert.riv",
+      "bytes": 26458,
+      "sha256": "bcd210fa4d57f15e64dba10691772395611fe7fb5dcb1e75000cac7c96219999"
+    },
+    {
+      "id": "user-round",
+      "label": "Perfiles",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/user-round.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/user-round.riv",
+      "bytes": 20779,
+      "sha256": "4f66cb712042a17cda6d3ab89dac0ffc334eca5238b56ab45b926b9e64b16cd8"
+    },
+    {
+      "id": "waypoints",
+      "label": "Enrutamiento",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/waypoints.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "connecting",
+        "disabled",
+        "error",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected",
+        "success"
+      ],
+      "riv": "riv/iconos/waypoints.riv",
+      "bytes": 26238,
+      "sha256": "cbb1f3b276da10753437b7bf4d4892b35f0df6abc7fe0fb822ca9060abe1708f"
+    },
+    {
+      "id": "x",
+      "label": "Cerrar",
+      "category": "interfaz",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/interfaz/x.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/x.riv",
+      "bytes": 19945,
+      "sha256": "fca73765b575c4dc7bc9b4d38657c3f3b5fef2ffb533c142e5bfdcd61f966f1a"
+    },
+    {
+      "id": "zoom-in",
+      "label": "Ampliar",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/zoom-in.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/zoom-in.riv",
+      "bytes": 23933,
+      "sha256": "7e1bb9e3f8b8a5682b06c2fec7b6dfde3eb671fbdc4ffa2ad7cf99e6ff29ac0a"
+    },
+    {
+      "id": "zoom-out",
+      "label": "Reducir",
+      "category": "design-system",
+      "svg": "BeCall_Icons_Fase3_SvelteKit/src/lib/becall-icons/svg/design-system/zoom-out.svg",
+      "artboards": [
+        "compact",
+        "standard",
+        "large"
+      ],
+      "animations": [
+        "disabled",
+        "focus",
+        "hover",
+        "idle",
+        "pressed",
+        "selected"
+      ],
+      "riv": "riv/iconos/zoom-out.riv",
+      "bytes": 22116,
+      "sha256": "6998af8d024172235be9b060dc1589f58f41abc9caab56d2d1d04395533320ca"
+    }
+  ],
+  "mascot": {
+    "name": "Beca",
+    "riv": "riv/mascota/beca.riv",
+    "animations": [
+      "blink",
+      "celebrate",
+      "conversation",
+      "error",
+      "explain",
+      "idle",
+      "listen",
+      "receive",
+      "speak",
+      "translate",
+      "turn",
+      "wait",
+      "walk",
+      "wave"
+    ],
+    "viewModel": "BecaControls",
+    "audioProperty": "audioLevel",
+    "audioRange": [
+      0,
+      1
+    ],
+    "motionProperty": "motion",
+    "motionCodes": {
+      "idle": 0,
+      "wait": 1,
+      "listen": 2,
+      "receive": 3,
+      "translate": 4,
+      "speak": 5,
+      "conversation": 6,
+      "explain": 7,
+      "wave": 8,
+      "walk": 9,
+      "turn": 10,
+      "celebrate": 11,
+      "error": 12,
+      "blink": 13
+    },
+    "bytes": 195192,
+    "sha256": "766e484ba5c37847a4fad958ccf96330f0b9b12e6c9ff984bea3ec3329d88be9"
+  }
+}

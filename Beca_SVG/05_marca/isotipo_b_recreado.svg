@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="titulo descripcion"><title id="titulo">Isotipo b recreado</title><desc id="descripcion">Mascota Beca de BeCall, recurso vectorial editable</desc><defs>
+ <linearGradient id="turq" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80E6E8"/><stop offset=".22" stop-color="#20B4C8"/><stop offset=".58" stop-color="#04849B"/><stop offset="1" stop-color="#005E75"/></linearGradient>
+ <linearGradient id="turqDark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1DB7C1"/><stop offset=".55" stop-color="#027D91"/><stop offset="1" stop-color="#00566C"/></linearGradient>
+ <linearGradient id="plastic" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#FBFCFF"/><stop offset=".83" stop-color="#EDF2F8"/><stop offset="1" stop-color="#CDDCE8"/></linearGradient>
+ <linearGradient id="face" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#FFFDFD"/><stop offset="1" stop-color="#E7E8F0"/></linearGradient>
+ <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC265"/><stop offset=".35" stop-color="#FF9E36"/><stop offset=".68" stop-color="#FB801B"/><stop offset="1" stop-color="#D95B14"/></linearGradient>
+ <linearGradient id="scarf" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FFC26C"/><stop offset=".33" stop-color="#FF982D"/><stop offset=".7" stop-color="#ED741D"/><stop offset="1" stop-color="#CC5012"/></linearGradient>
+ <linearGradient id="glove" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".6" stop-color="#FAFDFF"/><stop offset="1" stop-color="#D8E2EC"/></linearGradient>
+ <linearGradient id="eye" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#3A3035"/><stop offset=".45" stop-color="#211D29"/><stop offset="1" stop-color="#100E16"/></linearGradient>
+ <radialGradient id="blush"><stop stop-color="#FFAE9C" stop-opacity=".82"/><stop offset=".65" stop-color="#FFC2B3" stop-opacity=".5"/><stop offset="1" stop-color="#FFC9C1" stop-opacity="0"/></radialGradient>
+ <radialGradient id="whiteShine"><stop stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+ </defs><g id="marca-becall-pecho" transform="translate(207 260) scale(1.8)" aria-label="b de BeCall">
+ <path d="M-43 -97 L-43 22 C-43 76 -7 109 43 109 C90 109 126 71 126 25 C126 -23 91 -61 44 -61 C17 -61 -2 -51 -18 -34 L-18 -109 Z M43 -36 C76 -36 101 -11 101 25 C101 60 76 84 43 84 C11 84 -18 56 -18 24 C-18 -11 10 -36 43 -36Z" fill="#007D8A" fill-rule="evenodd"/>
+ <circle cx="43" cy="26" r="33" fill="#F57C1F"/></g></svg>

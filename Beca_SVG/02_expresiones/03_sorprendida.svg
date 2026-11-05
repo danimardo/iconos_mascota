@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="552" viewBox="0 0 512 552" role="img" aria-labelledby="titulo descripcion"><title id="titulo">Beca — sorprendido — front</title><desc id="descripcion">Personaje original Beca, redibujado en SVG con casco b turquesa, auriculares naranja, cara blanca y bufanda. SVG vectorial editable.</desc><defs>
+ <linearGradient id="turq" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80E6E8"/><stop offset=".22" stop-color="#20B4C8"/><stop offset=".58" stop-color="#04849B"/><stop offset="1" stop-color="#005E75"/></linearGradient>
+ <linearGradient id="turqDark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1DB7C1"/><stop offset=".55" stop-color="#027D91"/><stop offset="1" stop-color="#00566C"/></linearGradient>
+ <linearGradient id="plastic" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#FBFCFF"/><stop offset=".83" stop-color="#EDF2F8"/><stop offset="1" stop-color="#CDDCE8"/></linearGradient>
+ <linearGradient id="face" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#FFFDFD"/><stop offset="1" stop-color="#E7E8F0"/></linearGradient>
+ <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC265"/><stop offset=".35" stop-color="#FF9E36"/><stop offset=".68" stop-color="#FB801B"/><stop offset="1" stop-color="#D95B14"/></linearGradient>
+ <linearGradient id="scarf" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FFC26C"/><stop offset=".33" stop-color="#FF982D"/><stop offset=".7" stop-color="#ED741D"/><stop offset="1" stop-color="#CC5012"/></linearGradient>
+ <linearGradient id="glove" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".6" stop-color="#FAFDFF"/><stop offset="1" stop-color="#D8E2EC"/></linearGradient>
+ <linearGradient id="eye" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#3A3035"/><stop offset=".45" stop-color="#211D29"/><stop offset="1" stop-color="#100E16"/></linearGradient>
+ <radialGradient id="blush"><stop stop-color="#FFAE9C" stop-opacity=".82"/><stop offset=".65" stop-color="#FFC2B3" stop-opacity=".5"/><stop offset="1" stop-color="#FFC9C1" stop-opacity="0"/></radialGradient>
+ <radialGradient id="whiteShine"><stop stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+ </defs><g id="personaje-beca"><g id="piernas">
+ <path d="M216 460 Q205 477 199 494 L198 511 Q217 526 242 513 L258 470Z" fill="url(#plastic)" stroke="#BFCFD8" stroke-width="3"/>
+ <path d="M273 470 L310 461 Q321 485 316 507 Q307 525 282 519 L265 500Z" fill="url(#plastic)" stroke="#BFCFD8" stroke-width="3"/>
+ <ellipse cx="211" cy="502" rx="42" ry="24" transform="rotate(-12 211 502)" fill="url(#plastic)" stroke="#CFDBE4" stroke-width="3"/>
+ <ellipse cx="310" cy="504" rx="41" ry="24" transform="rotate(8 310 504)" fill="url(#plastic)" stroke="#C3D4E0" stroke-width="3"/>
+ <path d="M173 516 Q210 528 246 515 M273 516 Q311 531 347 515" fill="none" stroke="#B6C8D4" stroke-width="4" stroke-linecap="round"/>
+ </g><g id="brazo-izquierdo"><path d="M192 361 Q158 342 142 297" fill="none" stroke="url(#plastic)" stroke-width="31" stroke-linecap="round"/><path d="M184 356 L165 341" stroke="url(#turqDark)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M141 304 Q115 298 108 277 Q103 258 115 249 Q124 237 139 249 Q145 235 156 249 Q170 251 165 270 Q166 291 141 304Z" fill="url(#glove)" stroke="#C5D5E0" stroke-width="3"/></g><g id="brazo-derecho"><path d="M333 361 Q362 344 380 295" fill="none" stroke="url(#plastic)" stroke-width="32" stroke-linecap="round"/>
+  <path d="M350 353 Q361 341 365 333" stroke="url(#turqDark)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M380 300 Q365 279 376 262 Q382 251 392 256 Q401 239 412 256 Q424 244 434 261 Q441 277 420 299 Q400 318 380 300Z" fill="url(#glove)" stroke="#C6D5E2" stroke-width="3"/></g><g id="cuerpo">
+ <path d="M224 337 Q258 324 300 341 Q342 360 352 421 Q360 465 327 486 Q303 508 262 501 Q205 503 183 473 Q163 451 176 411 Q184 367 224 337Z" fill="url(#plastic)" stroke="#BED0DB" stroke-width="3.5"/>
+ <path d="M207 364 Q228 348 273 353" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".72" fill="none"/>
+ <path d="M193 460 Q228 488 261 485" stroke="#CBD8E5" stroke-width="3" fill="none" opacity=".6"/>
+ <g id="marca-becall-pecho" transform="translate(253 409) scale(0.33)" aria-label="b de BeCall">
+ <path d="M-43 -97 L-43 22 C-43 76 -7 109 43 109 C90 109 126 71 126 25 C126 -23 91 -61 44 -61 C17 -61 -2 -51 -18 -34 L-18 -109 Z M43 -36 C76 -36 101 -11 101 25 C101 60 76 84 43 84 C11 84 -18 56 -18 24 C-18 -11 10 -36 43 -36Z" fill="#007D8A" fill-rule="evenodd"/>
+ <circle cx="43" cy="26" r="33" fill="#F57C1F"/></g>
+ </g><g id="bufanda">
+ <path d="M211 340 Q176 347 153 367 Q131 389 99 398 Q86 409 102 424 Q128 443 153 428 Q176 415 207 388 L240 358Z" fill="url(#scarf)" stroke="#DE6A1B" stroke-width="3"/>
+ <path d="M112 404 Q145 399 186 362" fill="none" stroke="#FFC670" stroke-width="8" stroke-linecap="round" opacity=".67"/>
+ <path d="M177 327 Q247 356 344 322 Q342 352 307 363 Q229 379 189 350 Q180 342 177 327Z" fill="url(#warm)" stroke="#E86B16" stroke-width="2"/>
+ <path d="M195 333 Q245 351 297 339" stroke="#FFD290" stroke-width="7" stroke-linecap="round" fill="none" opacity=".72"/>
+ <path d="M319 349 Q339 348 356 334 Q367 322 360 315 Q348 311 333 321" fill="url(#warm)" stroke="#EA741A" stroke-width="2"/>
+ </g><g id="cabeza">
+ <path id="antena-b" d="M169 159 L169 56 Q168 45 181 40 L222 22 L221 168Z" fill="url(#turq)" stroke="#006779" stroke-width="3"/>
+ <path d="M179 62 L211 48 L211 146" fill="none" stroke="#C4FBF9" stroke-width="5" opacity=".33"/>
+ <ellipse id="casco-turquesa" cx="263" cy="214" rx="160" ry="150" fill="url(#turq)" stroke="#00637B" stroke-width="4"/>
+ <path d="M139 167 Q195 95 289 93" fill="none" stroke="#9CFAF5" stroke-width="13" opacity=".27" stroke-linecap="round"/>
+ <ellipse id="cara-blanca" cx="264" cy="221" rx="133" ry="125" fill="url(#face)" stroke="#B5D3DC" stroke-width="3"/>
+ <ellipse cx="219" cy="136" rx="61" ry="25" fill="url(#whiteShine)" opacity=".65"/>
+ <g id="rostro-expresion"><ellipse cx="183" cy="263" rx="26" ry="21" fill="url(#blush)"/><ellipse cx="343" cy="260" rx="27" ry="23" fill="url(#blush)"/><ellipse cx="217" cy="219" rx="14" ry="20" fill="url(#eye)"/><ellipse cx="213" cy="212" rx="4.5" ry="6" fill="white" opacity=".65"/><ellipse cx="309" cy="219" rx="14" ry="20" fill="url(#eye)"/><ellipse cx="305" cy="212" rx="4.5" ry="6" fill="white" opacity=".65"/><ellipse cx="263" cy="268" rx="14" ry="19" fill="#6E2929"/><ellipse cx="263" cy="278" rx="8" ry="5" fill="#FE796B"/></g>
+ <g id="auriculares">
+ <ellipse cx="114" cy="223" rx="39" ry="60" fill="url(#plastic)" stroke="#C6D5DE" stroke-width="3"/>
+ <ellipse cx="114" cy="223" rx="30" ry="51" fill="url(#warm)" stroke="#F4AE62" stroke-width="4"/>
+ <ellipse cx="103" cy="207" rx="8" ry="20" fill="#FFD9AD" opacity=".43"/>
+ <ellipse cx="412" cy="223" rx="37" ry="57" fill="url(#plastic)" stroke="#C3D5E0" stroke-width="3"/>
+ <ellipse cx="412" cy="223" rx="29" ry="48" fill="url(#warm)" stroke="#F6B56A" stroke-width="4"/>
+ </g></g></g></svg>

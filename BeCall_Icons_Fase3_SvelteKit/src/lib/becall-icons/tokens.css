@@ -1,0 +1,17 @@
+/* BeCall Icons — Fase 2 · 63 recursos. Aplicar al contenedor con SVG INLINE, NO <img>. */
+:root, .bc-theme-light {
+  --bc-primary:#00788e; --bc-ink:#00677e; --bc-accent:#e87928;
+  --bc-blue:#3f86ba; --bc-purple:#8475b4; --bc-success:#298877;
+  --bc-danger:#bb5664; --bc-warning:#bd8229; --bc-fill:#e4f3f4;
+  --bc-fill-blue:#e8f0f9; --bc-fill-warm:#fff0e0;
+  --bc-fill-success:#e0f2ec; --bc-fill-danger:#fbe9ec;
+  --bc-neutral:#66808c; --bc-paper:#ffffff;
+}
+.bc-theme-dark {
+  --bc-primary:#5fcbd5; --bc-ink:#97e5ec; --bc-accent:#f2a66d;
+  --bc-blue:#91bfea; --bc-purple:#beadee; --bc-success:#72d1ae;
+  --bc-danger:#f08b99; --bc-warning:#f2be69; --bc-fill:#193d49;
+  --bc-fill-blue:#223c52; --bc-fill-warm:#564133;
+  --bc-fill-success:#20483e; --bc-fill-danger:#52333e;
+  --bc-neutral:#b6c9d0; --bc-paper:#112734;
+}

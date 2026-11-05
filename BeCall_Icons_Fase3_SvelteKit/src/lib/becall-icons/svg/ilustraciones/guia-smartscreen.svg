@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 300 130" font-family="Segoe UI, Arial, sans-serif" role="img" aria-label="Guía ilustrada de SmartScreen">
+<title>Guía: aviso SmartScreen, Más información y Ejecutar de todas formas</title>
+<rect x=".8" y=".8" width="298.4" height="128.4" rx="11" fill="#124d7e" stroke="#58a2c7" stroke-width="1.5"/>
+<rect x="8" y="7" width="284" height="115" rx="8" fill="#1c6194"/>
+<circle cx="25" cy="25" r="8" fill="none" stroke="#a8d9f6" stroke-width="2"/><path d="M25 20v5m0 3v1" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+<text x="40" y="29" data-key="ss.illus.title" font-size="16.3" font-weight="600" fill="#ffffff">Windows protegió su PC</text>
+<text x="18" y="57" font-size="12" fill="#d6ebf9">…</text>
+<rect x="13" y="68" width="117" height="22" rx="5" fill="#ffffff" fill-opacity=".11"/>
+<text x="20" y="83" data-key="ss.illus.more" font-size="11.4" font-weight="600" fill="#ffffff" text-decoration="underline">Más información</text>
+<circle cx="140" cy="77" r="9" fill="#e87928" stroke="#ffffff" stroke-width="1.3"/>
+<text x="140" y="81" font-size="12" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="155" y="96" width="131" height="24" rx="5" fill="#ffffff" fill-opacity=".13" stroke="#cee8f8" stroke-width="1.2"/>
+<text x="220.5" y="112" data-key="ss.illus.run" font-size="9.3" font-weight="600" fill="#ffffff" text-anchor="middle">Ejecutar de todas formas</text>
+<circle cx="144" cy="108" r="9" fill="#e87928" stroke="#ffffff" stroke-width="1.3"/>
+<text x="144" y="112" font-size="12" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+</svg>

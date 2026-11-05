@@ -1,0 +1,1305 @@
+{
+  "version": "0.2.0",
+  "phase": 2,
+  "total_svg_entries": 63,
+  "approved_phase1_reused": 8,
+  "inventory": [
+    {
+      "original_path": "app/icono-app-instalador.svg",
+      "category": "app",
+      "original_name": "icono-app-instalador",
+      "label": "Instalador",
+      "description": "Recurso de instalación",
+      "new_files": [
+        "svg/app/icono-app-instalador.svg",
+        "platform/app/icono-app-instalador-512.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "icono-app-instalador",
+      "variants": [
+        "master-vector"
+      ]
+    },
+    {
+      "original_path": "app/icono-app.svg",
+      "category": "app",
+      "original_name": "icono-app",
+      "label": "Icono de aplicación",
+      "description": "Identidad de la aplicación",
+      "new_files": [
+        "svg/app/icono-app.svg",
+        "platform/app/icono-app-512.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "icono-app",
+      "variants": [
+        "master-vector"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-corte-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-corte-claro",
+      "label": "Conexión interrumpida — claro",
+      "description": "Estado corte para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-corte-claro.svg",
+        "platform/bandeja/bandeja-corte-claro-16.png",
+        "platform/bandeja/bandeja-corte-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-corte-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-corte-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-corte-oscuro",
+      "label": "Conexión interrumpida — oscuro",
+      "description": "Estado corte para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-corte-oscuro.svg",
+        "platform/bandeja/bandeja-corte-oscuro-16.png",
+        "platform/bandeja/bandeja-corte-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-corte-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-detenido-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-detenido-claro",
+      "label": "Detenido — claro",
+      "description": "Estado detenido para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-detenido-claro.svg",
+        "platform/bandeja/bandeja-detenido-claro-16.png",
+        "platform/bandeja/bandeja-detenido-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-detenido-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-detenido-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-detenido-oscuro",
+      "label": "Detenido — oscuro",
+      "description": "Estado detenido para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-detenido-oscuro.svg",
+        "platform/bandeja/bandeja-detenido-oscuro-16.png",
+        "platform/bandeja/bandeja-detenido-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-detenido-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-error-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-error-claro",
+      "label": "Error de sesión — claro",
+      "description": "Estado error para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-error-claro.svg",
+        "platform/bandeja/bandeja-error-claro-16.png",
+        "platform/bandeja/bandeja-error-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-error-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-error-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-error-oscuro",
+      "label": "Error de sesión — oscuro",
+      "description": "Estado error para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-error-oscuro.svg",
+        "platform/bandeja/bandeja-error-oscuro-16.png",
+        "platform/bandeja/bandeja-error-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-error-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-escuchando-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-escuchando-claro",
+      "label": "Escuchando — claro",
+      "description": "Estado escuchando para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-escuchando-claro.svg",
+        "platform/bandeja/bandeja-escuchando-claro-16.png",
+        "platform/bandeja/bandeja-escuchando-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-escuchando-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-escuchando-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-escuchando-oscuro",
+      "label": "Escuchando — oscuro",
+      "description": "Estado escuchando para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-escuchando-oscuro.svg",
+        "platform/bandeja/bandeja-escuchando-oscuro-16.png",
+        "platform/bandeja/bandeja-escuchando-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-escuchando-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-silenciado-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-silenciado-claro",
+      "label": "Silenciado — claro",
+      "description": "Estado silenciado para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-silenciado-claro.svg",
+        "platform/bandeja/bandeja-silenciado-claro-16.png",
+        "platform/bandeja/bandeja-silenciado-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-silenciado-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-silenciado-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-silenciado-oscuro",
+      "label": "Silenciado — oscuro",
+      "description": "Estado silenciado para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-silenciado-oscuro.svg",
+        "platform/bandeja/bandeja-silenciado-oscuro-16.png",
+        "platform/bandeja/bandeja-silenciado-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-silenciado-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-te-oyen-claro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-te-oyen-claro",
+      "label": "Emitiendo traducción — claro",
+      "description": "Estado te-oyen para la bandeja del sistema, tema claro",
+      "new_files": [
+        "svg/bandeja/bandeja-te-oyen-claro.svg",
+        "platform/bandeja/bandeja-te-oyen-claro-16.png",
+        "platform/bandeja/bandeja-te-oyen-claro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-te-oyen-claro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "bandeja/bandeja-te-oyen-oscuro.svg",
+      "category": "bandeja",
+      "original_name": "bandeja-te-oyen-oscuro",
+      "label": "Emitiendo traducción — oscuro",
+      "description": "Estado te-oyen para la bandeja del sistema, tema oscuro",
+      "new_files": [
+        "svg/bandeja/bandeja-te-oyen-oscuro.svg",
+        "platform/bandeja/bandeja-te-oyen-oscuro-16.png",
+        "platform/bandeja/bandeja-te-oyen-oscuro-32.png"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": true,
+      "icon_id": "bandeja-te-oyen-oscuro",
+      "variants": [
+        "static-16",
+        "static-32"
+      ]
+    },
+    {
+      "original_path": "design-system/arrow-down.svg",
+      "category": "design-system",
+      "original_name": "arrow-down",
+      "label": "Abajo",
+      "description": "Ordenación descendente",
+      "new_files": [
+        "svg/design-system/arrow-down.compact.svg",
+        "svg/design-system/arrow-down.svg",
+        "svg/design-system/arrow-down.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "arrow-down",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/arrow-left.svg",
+      "category": "design-system",
+      "original_name": "arrow-left",
+      "label": "Anterior",
+      "description": "Navegar hacia la izquierda",
+      "new_files": [
+        "svg/design-system/arrow-left.compact.svg",
+        "svg/design-system/arrow-left.svg",
+        "svg/design-system/arrow-left.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "arrow-left",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/arrow-right.svg",
+      "category": "design-system",
+      "original_name": "arrow-right",
+      "label": "Siguiente",
+      "description": "Navegar hacia la derecha",
+      "new_files": [
+        "svg/design-system/arrow-right.compact.svg",
+        "svg/design-system/arrow-right.svg",
+        "svg/design-system/arrow-right.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "arrow-right",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/arrow-up.svg",
+      "category": "design-system",
+      "original_name": "arrow-up",
+      "label": "Arriba",
+      "description": "Ordenación ascendente",
+      "new_files": [
+        "svg/design-system/arrow-up.compact.svg",
+        "svg/design-system/arrow-up.svg",
+        "svg/design-system/arrow-up.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "arrow-up",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/circle-check.svg",
+      "category": "design-system",
+      "original_name": "circle-check",
+      "label": "Correcto",
+      "description": "Estado de éxito",
+      "new_files": [
+        "svg/design-system/circle-check.compact.svg",
+        "svg/design-system/circle-check.svg",
+        "svg/design-system/circle-check.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "success",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/circle-x.svg",
+      "category": "design-system",
+      "original_name": "circle-x",
+      "label": "Descartar",
+      "description": "Error o cerrar",
+      "new_files": [
+        "svg/design-system/circle-x.compact.svg",
+        "svg/design-system/circle-x.svg",
+        "svg/design-system/circle-x.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "circle-x",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/crosshair.svg",
+      "category": "design-system",
+      "original_name": "crosshair",
+      "label": "Posicionar",
+      "description": "Selector de posición",
+      "new_files": [
+        "svg/design-system/crosshair.compact.svg",
+        "svg/design-system/crosshair.svg",
+        "svg/design-system/crosshair.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "crosshair",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/keyboard.svg",
+      "category": "design-system",
+      "original_name": "keyboard",
+      "label": "Teclado",
+      "description": "Atajos de teclado",
+      "new_files": [
+        "svg/design-system/keyboard.compact.svg",
+        "svg/design-system/keyboard.svg",
+        "svg/design-system/keyboard.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "keyboard",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/loader-circle.svg",
+      "category": "design-system",
+      "original_name": "loader-circle",
+      "label": "Cargando",
+      "description": "Actividad de componente",
+      "new_files": [
+        "svg/design-system/loader-circle.compact.svg",
+        "svg/design-system/loader-circle.svg",
+        "svg/design-system/loader-circle.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "loader-circle",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/scale.svg",
+      "category": "design-system",
+      "original_name": "scale",
+      "label": "Comparar",
+      "description": "Comparación o ponderación",
+      "new_files": [
+        "svg/design-system/scale.compact.svg",
+        "svg/design-system/scale.svg",
+        "svg/design-system/scale.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "scale",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/zoom-in.svg",
+      "category": "design-system",
+      "original_name": "zoom-in",
+      "label": "Ampliar",
+      "description": "Aumentar zoom",
+      "new_files": [
+        "svg/design-system/zoom-in.compact.svg",
+        "svg/design-system/zoom-in.svg",
+        "svg/design-system/zoom-in.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "zoom-in",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "design-system/zoom-out.svg",
+      "category": "design-system",
+      "original_name": "zoom-out",
+      "label": "Reducir",
+      "description": "Disminuir zoom",
+      "new_files": [
+        "svg/design-system/zoom-out.compact.svg",
+        "svg/design-system/zoom-out.svg",
+        "svg/design-system/zoom-out.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "zoom-out",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "ilustraciones/guia-smartscreen.svg",
+      "category": "ilustraciones",
+      "original_name": "guia-smartscreen",
+      "label": "Guía SmartScreen",
+      "description": "Pasos de aviso de Windows",
+      "new_files": [
+        "svg/ilustraciones/guia-smartscreen.svg"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": false,
+      "icon_id": "guia-smartscreen",
+      "variants": [
+        "illustration"
+      ]
+    },
+    {
+      "original_path": "ilustraciones/guia-teams-zoom.svg",
+      "category": "ilustraciones",
+      "original_name": "guia-teams-zoom",
+      "label": "Guía Teams y Zoom",
+      "description": "Configuración de cables de audio virtuales",
+      "new_files": [
+        "svg/ilustraciones/guia-teams-zoom.svg"
+      ],
+      "visual_source": "new",
+      "dynamic_theme": false,
+      "platform_static": false,
+      "icon_id": "guia-teams-zoom",
+      "variants": [
+        "illustration"
+      ]
+    },
+    {
+      "original_path": "interfaz/activity.svg",
+      "category": "interfaz",
+      "original_name": "activity",
+      "label": "Sesión",
+      "description": "Pantalla principal de traducción",
+      "new_files": [
+        "svg/interfaz/activity.compact.svg",
+        "svg/interfaz/activity.svg",
+        "svg/interfaz/activity.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "activity",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/app-window.svg",
+      "category": "interfaz",
+      "original_name": "app-window",
+      "label": "Ventana principal",
+      "description": "Abrir la ventana completa",
+      "new_files": [
+        "svg/interfaz/app-window.compact.svg",
+        "svg/interfaz/app-window.svg",
+        "svg/interfaz/app-window.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "app-window",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/audio-lines.svg",
+      "category": "interfaz",
+      "original_name": "audio-lines",
+      "label": "Audio directo",
+      "description": "Tu voz se emite sin traducir",
+      "new_files": [
+        "svg/interfaz/audio-lines.compact.svg",
+        "svg/interfaz/audio-lines.svg",
+        "svg/interfaz/audio-lines.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "audio-lines",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/cable.svg",
+      "category": "interfaz",
+      "original_name": "cable",
+      "label": "Cable virtual",
+      "description": "Dispositivos CABLE-A/B",
+      "new_files": [
+        "svg/interfaz/cable.compact.svg",
+        "svg/interfaz/cable.svg",
+        "svg/interfaz/cable.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "cable",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/captions.svg",
+      "category": "interfaz",
+      "original_name": "captions",
+      "label": "Subtítulos",
+      "description": "Mostrar u ocultar subtítulos",
+      "new_files": [
+        "svg/interfaz/captions.compact.svg",
+        "svg/interfaz/captions.svg",
+        "svg/interfaz/captions.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "captions",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/chevron-down.svg",
+      "category": "interfaz",
+      "original_name": "chevron-down",
+      "label": "Desplegar",
+      "description": "Expandir o bajar",
+      "new_files": [
+        "svg/interfaz/chevron-down.compact.svg",
+        "svg/interfaz/chevron-down.svg",
+        "svg/interfaz/chevron-down.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "chevron-down",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/chevron-up.svg",
+      "category": "interfaz",
+      "original_name": "chevron-up",
+      "label": "Contraer",
+      "description": "Subir o ampliar",
+      "new_files": [
+        "svg/interfaz/chevron-up.compact.svg",
+        "svg/interfaz/chevron-up.svg",
+        "svg/interfaz/chevron-up.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "chevron-up",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/circle-alert.svg",
+      "category": "interfaz",
+      "original_name": "circle-alert",
+      "label": "Error",
+      "description": "Error general de sesión",
+      "new_files": [
+        "svg/interfaz/circle-alert.compact.svg",
+        "svg/interfaz/circle-alert.svg",
+        "svg/interfaz/circle-alert.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "error",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/coins.svg",
+      "category": "interfaz",
+      "original_name": "coins",
+      "label": "Consumo",
+      "description": "Consumo de servicio y límite de gasto",
+      "new_files": [
+        "svg/interfaz/coins.compact.svg",
+        "svg/interfaz/coins.svg",
+        "svg/interfaz/coins.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "coins",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/download.svg",
+      "category": "interfaz",
+      "original_name": "download",
+      "label": "Actualizar",
+      "description": "Descargar una actualización",
+      "new_files": [
+        "svg/interfaz/download.compact.svg",
+        "svg/interfaz/download.svg",
+        "svg/interfaz/download.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "download",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/ear.svg",
+      "category": "interfaz",
+      "original_name": "ear",
+      "label": "Idioma entendido",
+      "description": "Audio entrante en el mismo idioma",
+      "new_files": [
+        "svg/interfaz/ear.compact.svg",
+        "svg/interfaz/ear.svg",
+        "svg/interfaz/ear.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "language",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/ellipsis.svg",
+      "category": "interfaz",
+      "original_name": "ellipsis",
+      "label": "Más acciones",
+      "description": "Menú contextual",
+      "new_files": [
+        "svg/interfaz/ellipsis.compact.svg",
+        "svg/interfaz/ellipsis.svg",
+        "svg/interfaz/ellipsis.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "ellipsis",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/file-text.svg",
+      "category": "interfaz",
+      "original_name": "file-text",
+      "label": "Plantillas",
+      "description": "Documentos de contexto o glosario",
+      "new_files": [
+        "svg/interfaz/file-text.compact.svg",
+        "svg/interfaz/file-text.svg",
+        "svg/interfaz/file-text.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "file-text",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/gauge.svg",
+      "category": "interfaz",
+      "original_name": "gauge",
+      "label": "Diagnóstico",
+      "description": "Medidores técnicos",
+      "new_files": [
+        "svg/interfaz/gauge.compact.svg",
+        "svg/interfaz/gauge.svg",
+        "svg/interfaz/gauge.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "gauge",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/headphones.svg",
+      "category": "interfaz",
+      "original_name": "headphones",
+      "label": "Auriculares",
+      "description": "Escuchando el audio de entrada",
+      "new_files": [
+        "svg/interfaz/headphones.compact.svg",
+        "svg/interfaz/headphones.svg",
+        "svg/interfaz/headphones.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "headphones",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/history.svg",
+      "category": "interfaz",
+      "original_name": "history",
+      "label": "Histórico",
+      "description": "Reuniones y transcripciones previas",
+      "new_files": [
+        "svg/interfaz/history.compact.svg",
+        "svg/interfaz/history.svg",
+        "svg/interfaz/history.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "history",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/info.svg",
+      "category": "interfaz",
+      "original_name": "info",
+      "label": "Información",
+      "description": "Información general",
+      "new_files": [
+        "svg/interfaz/info.compact.svg",
+        "svg/interfaz/info.svg",
+        "svg/interfaz/info.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "info",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/key-round.svg",
+      "category": "interfaz",
+      "original_name": "key-round",
+      "label": "Clave de API",
+      "description": "Falta clave de API",
+      "new_files": [
+        "svg/interfaz/key-round.compact.svg",
+        "svg/interfaz/key-round.svg",
+        "svg/interfaz/key-round.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "key-round",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/languages.svg",
+      "category": "interfaz",
+      "original_name": "languages",
+      "label": "Traducción",
+      "description": "Traducción entre idiomas",
+      "new_files": [
+        "svg/interfaz/languages.compact.svg",
+        "svg/interfaz/languages.svg",
+        "svg/interfaz/languages.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "translation",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/loader.svg",
+      "category": "interfaz",
+      "original_name": "loader",
+      "label": "Conectando",
+      "description": "Actividad de conexión o detención",
+      "new_files": [
+        "svg/interfaz/loader.compact.svg",
+        "svg/interfaz/loader.svg",
+        "svg/interfaz/loader.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "loader",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/mic-off.svg",
+      "category": "interfaz",
+      "original_name": "mic-off",
+      "label": "Micrófono silenciado",
+      "description": "Audio de salida silenciado",
+      "new_files": [
+        "svg/interfaz/mic-off.compact.svg",
+        "svg/interfaz/mic-off.svg",
+        "svg/interfaz/mic-off.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "mic-off",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/mic.svg",
+      "category": "interfaz",
+      "original_name": "mic",
+      "label": "Micrófono",
+      "description": "Audio de salida y control de silencio",
+      "new_files": [
+        "svg/interfaz/mic.compact.svg",
+        "svg/interfaz/mic.svg",
+        "svg/interfaz/mic.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "microphone",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/pause.svg",
+      "category": "interfaz",
+      "original_name": "pause",
+      "label": "Pausa",
+      "description": "Pausar una grabación",
+      "new_files": [
+        "svg/interfaz/pause.compact.svg",
+        "svg/interfaz/pause.svg",
+        "svg/interfaz/pause.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "pause",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/pin.svg",
+      "category": "interfaz",
+      "original_name": "pin",
+      "label": "Fijar",
+      "description": "Fijar posición de subtítulos",
+      "new_files": [
+        "svg/interfaz/pin.compact.svg",
+        "svg/interfaz/pin.svg",
+        "svg/interfaz/pin.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "pin",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/play.svg",
+      "category": "interfaz",
+      "original_name": "play",
+      "label": "Reproducir",
+      "description": "Reproducir una grabación",
+      "new_files": [
+        "svg/interfaz/play.compact.svg",
+        "svg/interfaz/play.svg",
+        "svg/interfaz/play.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "play",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/plus.svg",
+      "category": "interfaz",
+      "original_name": "plus",
+      "label": "Añadir",
+      "description": "Crear un elemento nuevo",
+      "new_files": [
+        "svg/interfaz/plus.compact.svg",
+        "svg/interfaz/plus.svg",
+        "svg/interfaz/plus.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "plus",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/radio.svg",
+      "category": "interfaz",
+      "original_name": "radio",
+      "label": "Transmitiendo",
+      "description": "Emitiendo voz traducida",
+      "new_files": [
+        "svg/interfaz/radio.compact.svg",
+        "svg/interfaz/radio.svg",
+        "svg/interfaz/radio.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "radio",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/settings.svg",
+      "category": "interfaz",
+      "original_name": "settings",
+      "label": "Ajustes",
+      "description": "Configuración",
+      "new_files": [
+        "svg/interfaz/settings.compact.svg",
+        "svg/interfaz/settings.svg",
+        "svg/interfaz/settings.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "settings",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/sliders-horizontal.svg",
+      "category": "interfaz",
+      "original_name": "sliders-horizontal",
+      "label": "Ajustar",
+      "description": "Ajustes de la superposición",
+      "new_files": [
+        "svg/interfaz/sliders-horizontal.compact.svg",
+        "svg/interfaz/sliders-horizontal.svg",
+        "svg/interfaz/sliders-horizontal.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "sliders-horizontal",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/square.svg",
+      "category": "interfaz",
+      "original_name": "square",
+      "label": "Detener",
+      "description": "Detener sesión",
+      "new_files": [
+        "svg/interfaz/square.compact.svg",
+        "svg/interfaz/square.svg",
+        "svg/interfaz/square.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "square",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/triangle-alert.svg",
+      "category": "interfaz",
+      "original_name": "triangle-alert",
+      "label": "Advertencia",
+      "description": "Dispositivo ausente o precaución",
+      "new_files": [
+        "svg/interfaz/triangle-alert.compact.svg",
+        "svg/interfaz/triangle-alert.svg",
+        "svg/interfaz/triangle-alert.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "triangle-alert",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/user-round.svg",
+      "category": "interfaz",
+      "original_name": "user-round",
+      "label": "Perfiles",
+      "description": "Perfiles de configuración",
+      "new_files": [
+        "svg/interfaz/user-round.compact.svg",
+        "svg/interfaz/user-round.svg",
+        "svg/interfaz/user-round.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "user-round",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/waypoints.svg",
+      "category": "interfaz",
+      "original_name": "waypoints",
+      "label": "Enrutamiento",
+      "description": "Router de audio listo",
+      "new_files": [
+        "svg/interfaz/waypoints.compact.svg",
+        "svg/interfaz/waypoints.svg",
+        "svg/interfaz/waypoints.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "waypoints",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/wifi-off.svg",
+      "category": "interfaz",
+      "original_name": "wifi-off",
+      "label": "Sin conexión",
+      "description": "Servicio desconectado",
+      "new_files": [
+        "svg/interfaz/wifi-off.compact.svg",
+        "svg/interfaz/wifi-off.svg",
+        "svg/interfaz/wifi-off.large.svg"
+      ],
+      "visual_source": "approved-phase1",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "connection",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    },
+    {
+      "original_path": "interfaz/x.svg",
+      "category": "interfaz",
+      "original_name": "x",
+      "label": "Cerrar",
+      "description": "Cerrar modo edición",
+      "new_files": [
+        "svg/interfaz/x.compact.svg",
+        "svg/interfaz/x.svg",
+        "svg/interfaz/x.large.svg"
+      ],
+      "visual_source": "new-phase2",
+      "dynamic_theme": true,
+      "platform_static": false,
+      "icon_id": "x",
+      "variants": [
+        "compact",
+        "standard",
+        "large"
+      ]
+    }
+  ]
+}

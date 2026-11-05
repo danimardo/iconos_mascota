@@ -1,0 +1,326 @@
+<Rive version="1" kind="fragment">
+  <Artboard id="0:2" name="compact" width="24" height="24" x="0" y="0" styleId="0:5" defaultStateMachineId="0:3">
+    <LayoutComponentStyle id="0:5" name="Artboard Style" />
+    <Image id="0:6" name="compact-0" assetId="0:7" x="12" y="12" scaleX="0.1" scaleY="0.1" />
+    <StateMachine id="0:3" name="IconMachine">
+      <StateMachineLayer id="0:4" name="Default">
+        <AnyState x="0" y="-100" />
+        <ExitState x="400" y="-100" />
+        <EntryState>
+          <StateTransition stateToId="0:9" />
+        </EntryState>
+        <AnimationState id="0:9" animationId="0:8" x="160" y="0" />
+      </StateMachineLayer>
+    </StateMachine>
+    <LinearAnimation id="0:8" name="idle" duration="1" />
+    <LinearAnimation name="hover" id="0:10" duration="24" loopValue="0">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="pressed" id="0:11" duration="16" loopValue="0">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="selected" id="0:12" duration="36" loopValue="0">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="focus" id="0:13" duration="40" loopValue="0">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="1" interpolationType="1" />
+          <KeyFrameDouble frame="20" value="0.65" interpolationType="1" />
+          <KeyFrameDouble frame="40" value="1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="disabled" id="0:14" duration="1" loopValue="0">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="0.45" interpolationType="1" />
+          <KeyFrameDouble frame="1" value="0.45" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="processing" id="0:15" duration="60" loopValue="1">
+      <KeyedObject objectId="0:6">
+        <KeyedProperty propertyKey="15">
+          <KeyFrameDouble frame="0" value="0" interpolationType="1" />
+          <KeyFrameDouble frame="60" value="6.28318" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+  </Artboard>
+  <Artboard id="0:16" name="standard" width="24" height="24" x="40" y="0" styleId="0:19" defaultStateMachineId="0:17">
+    <LayoutComponentStyle id="0:19" name="Artboard Style" />
+    <Image id="0:20" name="standard-1" assetId="0:21" x="12" y="12" scaleX="0.1" scaleY="0.1" />
+    <Image id="0:22" name="standard-0" assetId="0:23" x="12" y="12" scaleX="0.1" scaleY="0.1" />
+    <StateMachine id="0:17" name="IconMachine">
+      <StateMachineLayer id="0:18" name="Default">
+        <AnyState x="0" y="-100" />
+        <ExitState x="400" y="-100" />
+        <EntryState>
+          <StateTransition stateToId="0:25" />
+        </EntryState>
+        <AnimationState id="0:25" animationId="0:24" x="160" y="0" />
+      </StateMachineLayer>
+    </StateMachine>
+    <LinearAnimation id="0:24" name="idle" duration="1" />
+    <LinearAnimation name="hover" id="0:26" duration="24" loopValue="0">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="pressed" id="0:27" duration="16" loopValue="0">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="selected" id="0:28" duration="36" loopValue="0">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="focus" id="0:29" duration="40" loopValue="0">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="1" interpolationType="1" />
+          <KeyFrameDouble frame="20" value="0.65" interpolationType="1" />
+          <KeyFrameDouble frame="40" value="1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="1" interpolationType="1" />
+          <KeyFrameDouble frame="20" value="0.65" interpolationType="1" />
+          <KeyFrameDouble frame="40" value="1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="disabled" id="0:30" duration="1" loopValue="0">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="0.45" interpolationType="1" />
+          <KeyFrameDouble frame="1" value="0.45" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:22">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="0.45" interpolationType="1" />
+          <KeyFrameDouble frame="1" value="0.45" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="processing" id="0:31" duration="60" loopValue="1">
+      <KeyedObject objectId="0:20">
+        <KeyedProperty propertyKey="15">
+          <KeyFrameDouble frame="0" value="0" interpolationType="1" />
+          <KeyFrameDouble frame="60" value="6.28318" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+  </Artboard>
+  <Artboard id="0:32" name="large" width="24" height="24" x="80" y="0" styleId="0:35" defaultStateMachineId="0:33">
+    <LayoutComponentStyle id="0:35" name="Artboard Style" />
+    <Image id="0:36" name="large-0" assetId="0:37" x="12" y="12" scaleX="0.1" scaleY="0.1" />
+    <StateMachine id="0:33" name="IconMachine">
+      <StateMachineLayer id="0:34" name="Default">
+        <AnyState x="0" y="-100" />
+        <ExitState x="400" y="-100" />
+        <EntryState>
+          <StateTransition stateToId="0:39" />
+        </EntryState>
+        <AnimationState id="0:39" animationId="0:38" x="160" y="0" />
+      </StateMachineLayer>
+    </StateMachine>
+    <LinearAnimation id="0:38" name="idle" duration="1" />
+    <LinearAnimation name="hover" id="0:40" duration="24" loopValue="0">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="12" value="0.107" interpolationType="1" />
+          <KeyFrameDouble frame="24" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="pressed" id="0:41" duration="16" loopValue="0">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="8" value="0.089" interpolationType="1" />
+          <KeyFrameDouble frame="16" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="selected" id="0:42" duration="36" loopValue="0">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="16">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="17">
+          <KeyFrameDouble frame="0" value="0.1" interpolationType="1" />
+          <KeyFrameDouble frame="18" value="0.109" interpolationType="1" />
+          <KeyFrameDouble frame="36" value="0.1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="focus" id="0:43" duration="40" loopValue="0">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="1" interpolationType="1" />
+          <KeyFrameDouble frame="20" value="0.65" interpolationType="1" />
+          <KeyFrameDouble frame="40" value="1" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="disabled" id="0:44" duration="1" loopValue="0">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="18">
+          <KeyFrameDouble frame="0" value="0.45" interpolationType="1" />
+          <KeyFrameDouble frame="1" value="0.45" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+    <LinearAnimation name="processing" id="0:45" duration="60" loopValue="1">
+      <KeyedObject objectId="0:36">
+        <KeyedProperty propertyKey="15">
+          <KeyFrameDouble frame="0" value="0" interpolationType="1" />
+          <KeyFrameDouble frame="60" value="6.28318" interpolationType="1" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+  </Artboard>
+  <ImageAsset id="0:7" name="compact-0" file="compact-0.png" />
+  <ImageAsset id="0:21" name="standard-1" file="standard-1.png" />
+  <ImageAsset id="0:23" name="standard-0" file="standard-0.png" />
+  <ImageAsset id="0:37" name="large-0" file="large-0.png" />
+</Rive>

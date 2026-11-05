@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeCall · Galería Rive</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./vendor/rive.js"></script>
+  <script defer src="./data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brandmark">b</span><span>BeCall <small>Laboratorio Rive</small></span></div>
+    <nav><a href="#beca">Beca</a><a href="#iconos">Iconos</a><a href="../README.md">Entrega</a></nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="eyebrow">Vista previa de los archivos .riv</div>
+      <h1>Iconos y mascota <em>en movimiento</em></h1>
+      <p>Explora las 47 familias de iconos y los gestos de Beca. Cada canvas reproduce el recurso Rive de la entrega, con controles para probar sus estados.</p>
+      <div class="statusline"><span class="statusdot" id="status-dot"></span><span id="status">Cargando recursos Rive…</span><span class="count" id="count"></span></div>
+    </section>
+
+    <section class="beca-section" id="beca" aria-labelledby="beca-title">
+      <div class="section-heading">
+        <div><div class="eyebrow">Mascota · 14 gestos</div><h2 id="beca-title">Beca, paso a paso</h2><p>Camina, espera, escucha, explica y habla. El control de audio modifica la boca mientras se mueve.</p></div>
+        <button class="button secondary" id="beca-tour" type="button" aria-pressed="true">Detener recorrido</button>
+      </div>
+      <div class="beca-layout">
+        <div class="beca-stage"><canvas id="beca-canvas" aria-label="Beca animada" role="img"></canvas><span class="stage-tag" id="beca-now">Preparando a Beca…</span></div>
+        <div class="beca-controls">
+          <label for="beca-animation">Animación</label>
+          <select id="beca-animation"></select>
+          <div class="control-row"><button class="button primary" id="beca-replay" type="button">Repetir gesto</button><button class="button secondary" id="beca-pause" type="button">Pausar</button></div>
+          <label for="beca-audio">Nivel de voz <output id="beca-audio-value">0,00</output></label>
+          <input id="beca-audio" type="range" min="0" max="1" step="0.01" value="0">
+          <p class="hint">Durante el recorrido, «Hablar» y «Conversar» mueven la boca automáticamente. También puedes ajustar el deslizador.</p>
+          <div class="beca-key"><span class="key-dot"></span> Archivo real: <code>beca.riv</code> <span id="beca-detail">· cargando</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="icon-section" id="iconos" aria-labelledby="icon-title">
+      <div class="section-heading">
+        <div><div class="eyebrow">Catálogo interactivo</div><h2 id="icon-title">47 iconos, tres variantes</h2><p>Los iconos visibles reproducen sus animaciones. Selecciona un estado para ver cómo responde cada uno.</p></div>
+      </div>
+      <div class="toolbar">
+        <label class="search"><span>Buscar icono</span><input id="search" type="search" placeholder="Micrófono, traducción, ajustes…" autocomplete="off"></label>
+        <label><span>Variante</span><select id="variant"><option value="standard">Estándar</option><option value="compact">Compacta</option><option value="large">Grande</option></select></label>
+        <button class="button secondary" id="toggle-all" type="button">Pausar todos</button>
+        <span class="shown" id="shown"></span>
+      </div>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden>No hay iconos con ese nombre.</p>
+    </section>
+  </main>
+
+  <footer><span>BeCall · Vista de revisión local</span><span>Los iconos de la bandeja de Windows siguen siendo estáticos.</span></footer>
+</body>
+</html>
