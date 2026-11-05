@@ -34,6 +34,37 @@ Después de cambiar cualquier `.riv`, ejecutar `preparar_visor.py` para actualiz
 
 Los `.riv` contienen **capas PNG embebidas** generadas a partir de los SVG existentes. Las animaciones, las capas, las transformaciones y los artboards son editables en RML; las curvas originales se editan en los SVG de `BeCall_Icons_Fase3_SvelteKit` y `Beca_SVG` y luego se regeneran. Los iconos se rasterizaron a 240 × 240 px para un artboard de 24 × 24 y Beca a 512 × 552 px. El resultado conserva el dibujo aprobado a los tamaños de interfaz previstos, pero el interior de cada capa no es vector nativo de Rive. No se generó `.rev`, que requiere autenticación de Rive CLI; las fuentes RML quedan en este paquete.
 
+## Rig de Beca (v2, más expresivo)
+
+`generar_beca.py` construye a Beca como un personaje articulado, no como capas sueltas:
+
+- **Jerarquía**: `stage > character > front > torso > headRig > face`. La cabeza arrastra ojos, boca, mofletes, auriculares y antena; los brazos y la bufanda siguen al torso.
+- **Bufanda**: nudo rígido más cola con una malla de 26 vértices deformada por tres huesos (`scarf0..2`). Ondea con retraso entre huesos, como tela.
+- **Expresiones y poses** sacadas de `Beca_SVG/02_expresiones`: guiño, sorprendida, pensando, satisfecha y error; brazo saludando, índice arriba y mano en la barbilla o en el auricular; destellos, «?», check y aviso.
+- **Movimiento**: curvas cubic/elastic, anticipación, estiramiento y compresión en saltos, parpadeos y movimiento secundario de antena y bufanda.
+- Beca se dibuja al **90 %** sobre la base del artboard (512 × 552, sin cambios) para que los saltos no se corten.
+
+| Gesto | Tipo | Duración | Qué hace |
+|---|---|---|---|
+| `idle` | bucle | 8 s | respira, mira a los lados, parpadea |
+| `wait` | bucle | 4 s | mira alrededor, cara pensativa con «?», golpea el pie |
+| `listen` | bucle | 2 s | inclina la cabeza con la mano en el auricular |
+| `receive` | bucle | 2 s | la antena vibra, mira arriba, los auriculares laten |
+| `translate` | bucle | 2 s | pose pensativa, balanceo rítmico |
+| `speak` | bucle | 1 s | asiente y gesticula; la boca sigue a `audioLevel` |
+| `conversation` | bucle | 2 s | escucha a un lado y responde al otro |
+| `walk` | bucle | 0,67 s | pasos con rebote; la bufanda vuela |
+| `explain` | una vez | 1,6 s | levanta el índice con rebote y guiña |
+| `wave` | una vez | 1,67 s | saluda con la mano abierta, destellos y guiño |
+| `turn` | una vez | 1,83 s | salta, gira a tres cuartos y vuelve |
+| `celebrate` | una vez | 2 s | dos saltos con brazos en V, ojos felices y check |
+| `error` | una vez | 1,67 s | sobresalto, ojos en X, aviso y sacudida |
+| `blink` | una vez | 0,27 s | parpadeo |
+
+Los gestos de una vez terminan en la pose de reposo; después, el anfitrión debe volver a poner `motion = 0` (`idle`). Los nombres, los códigos `motion` y el View Model no cambian respecto a la versión anterior.
+
+**Requisitos para regenerar**: el ffmpeg de miniforge no decodifica SVG, así que `generar_beca.py` antepone `/usr/bin` al `PATH` para usar el ffmpeg del sistema. Las capturas necesitan una pantalla; sin escritorio, ejecutar `xvfb-run -a /home/danimardo/miniforge3/bin/python rive_entrega/capturar.py`.
+
 ## Estado de integración
 
 La aplicación [`RealTime-Translate`](/Apps/RealTime-Translate/README.md) sigue sin código de producto en el clon revisado: contiene especificaciones, diseños y experimentos. Esta entrega no escribe en ese repositorio. El documento de integración se basa en el diseño vigente v3, el contrato de estados y las reglas de `AGENTS.md`; el agente integrador deberá verificar el código real cuando exista.
